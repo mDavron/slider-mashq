@@ -1,5 +1,8 @@
 /* CUSTOM STYLES */
 .wrapper {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 3fr 9fr;
   width: 100%;
