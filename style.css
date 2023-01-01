@@ -6,6 +6,7 @@
   height: 30rem;
   background: #c7f;
   margin-top: 100px;
+  padding: 150px 0;
 }
 .slider-box {
   position: relative;
@@ -21,12 +22,13 @@
 .swiper-button-next::before {
   content: "";
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 5rem;
+  height: 5rem;
   background-image: url(./prev.svg);
   left: 0;
   top: 0;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {
@@ -51,12 +53,12 @@
 }
 .text p {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .text .swiper-button-next {
   position: absolute;
   left: 20%;
-  top: 70%;
+  top: 80%;
 }
 
 @media (max-width: 768px) {
